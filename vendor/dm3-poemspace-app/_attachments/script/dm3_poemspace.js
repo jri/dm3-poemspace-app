@@ -9,7 +9,7 @@ function dm3_poemspace() {
                 {id: "Name",        model: {type: "text"}, view: {editor: "single line"}, content: ""},
                 {id: "Description", model: {type: "text"}, view: {editor: "multi line"},  content: ""}
             ],
-            view: {icon_src: "vendor/dm3-poemspace/images/circled-dot.png"},
+            view: {icon_src: "vendor/dm3-poemspace-app/images/circled-dot.png"},
             implementation: "PlainDocument"
         }
         types["Kiez"] = {
@@ -17,7 +17,7 @@ function dm3_poemspace() {
                 {id: "Name",        model: {type: "text"}, view: {editor: "single line"}, content: ""},
                 {id: "Description", model: {type: "text"}, view: {editor: "multi line"},  content: ""}
             ],
-            view: {icon_src: "vendor/dm3-poemspace/images/dot.png"},
+            view: {icon_src: "vendor/dm3-poemspace-app/images/dot.png"},
             implementation: "PlainDocument"
         }
         types["Einrichtungsart"] = {
@@ -25,7 +25,7 @@ function dm3_poemspace() {
                 {id: "Name",        model: {type: "text"}, view: {editor: "single line"}, content: ""},
                 {id: "Description", model: {type: "text"}, view: {editor: "multi line"},  content: ""}
             ],
-            view: {icon_src: "vendor/dm3-poemspace/images/tent.png"},
+            view: {icon_src: "vendor/dm3-poemspace-app/images/tent.png"},
             implementation: "PlainDocument"
         }
         types["Kunstgattung"] = {
@@ -33,7 +33,7 @@ function dm3_poemspace() {
                 {id: "Name",        model: {type: "text"}, view: {editor: "single line"}, content: ""},
                 {id: "Description", model: {type: "text"}, view: {editor: "multi line"},  content: ""}
             ],
-            view: {icon_src: "vendor/dm3-poemspace/images/butterfly.png"},
+            view: {icon_src: "vendor/dm3-poemspace-app/images/butterfly.png"},
             implementation: "PlainDocument"
         }
         //
