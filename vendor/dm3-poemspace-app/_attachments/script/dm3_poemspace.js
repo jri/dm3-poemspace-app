@@ -5,7 +5,7 @@ function dm3_poemspace() {
     types["Bezirk"] = {
         fields: [
             {id: "Name",        model: {type: "text"}, view: {editor: "single line"}, content: ""},
-            {id: "Description", model: {type: "text"}, view: {editor: "multi line"},  content: ""}
+            {id: "Description", model: {type: "html"}, view: {editor: "multi line"},  content: ""}
         ],
         view: {icon_src: "vendor/dm3-poemspace-app/images/circled-dot.png"},
         implementation: "PlainDocument"
@@ -13,7 +13,7 @@ function dm3_poemspace() {
     types["Kiez"] = {
         fields: [
             {id: "Name",        model: {type: "text"}, view: {editor: "single line"}, content: ""},
-            {id: "Description", model: {type: "text"}, view: {editor: "multi line"},  content: ""}
+            {id: "Description", model: {type: "html"}, view: {editor: "multi line"},  content: ""}
         ],
         view: {icon_src: "vendor/dm3-poemspace-app/images/dot.png"},
         implementation: "PlainDocument"
@@ -21,7 +21,7 @@ function dm3_poemspace() {
     types["Einrichtungsart"] = {
         fields: [
             {id: "Name",        model: {type: "text"}, view: {editor: "single line"}, content: ""},
-            {id: "Description", model: {type: "text"}, view: {editor: "multi line"},  content: ""}
+            {id: "Description", model: {type: "html"}, view: {editor: "multi line"},  content: ""}
         ],
         view: {icon_src: "vendor/dm3-poemspace-app/images/tent.png"},
         implementation: "PlainDocument"
@@ -29,7 +29,7 @@ function dm3_poemspace() {
     types["Kunstgattung"] = {
         fields: [
             {id: "Name",        model: {type: "text"}, view: {editor: "single line"}, content: ""},
-            {id: "Description", model: {type: "text"}, view: {editor: "multi line"},  content: ""}
+            {id: "Description", model: {type: "html"}, view: {editor: "multi line"},  content: ""}
         ],
         view: {icon_src: "vendor/dm3-poemspace-app/images/butterfly.png"},
         implementation: "PlainDocument"
